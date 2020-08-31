@@ -1,0 +1,111 @@
+{
+    "@@locale": "en",
+    "fieldUserName": "User",
+    "@fieldUserName": {},
+    "fieldPassword": "Password",
+    "@fieldPassword": {},
+    "fieldWebsite": "Website",
+    "@fieldWebsite": {},
+    "fieldTitle": "Title",
+    "@fieldTitle": {},
+    "selectKeepassFile": "AuthPass - Select KeePass File",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "quickUnlockingFiles": "Quick unlocking files",
+    "@quickUnlockingFiles": {
+        "context": "select file screen"
+    },
+    "selectKeepassFileLabel": "Please select a KeePass (.kdbx) file.",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "openLocalFile": "Open\nLocal File",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "loadFrom": "Load from {cloudStorageName}",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromUrl": "Download from URL",
+    "@loadFromUrl": {},
+    "createNewKeepass": "New to KeePass?\nCreate New Password Database",
+    "@createNewKeepass": {},
+    "labelLastOpenFiles": "Last opened files:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "No files have been opened yet.",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "Select Language",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "Language",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "Text Scale Factor",
+    "@preferenceTextScaleFactor": {},
+    "preferenceVisualDensity": "Visual Density",
+    "@preferenceVisualDensity": {},
+    "preferenceTheme": "Theme",
+    "@preferenceTheme": {},
+    "preferenceThemeLight": "Light",
+    "@preferenceThemeLight": {},
+    "preferenceThemeDark": "Dark",
+    "@preferenceThemeDark": {},
+    "preferenceSystemDefault": "System Default",
+    "@preferenceSystemDefault": {},
+    "preferenceDefault": "Default",
+    "@preferenceDefault": {},
+    "lockAllFiles": "Lock all open files",
+    "@lockAllFiles": {},
+    "preferenceAllowScreenshots": "Allow Screenshots of the App",
+    "@preferenceAllowScreenshots": {},
+    "preferenceEnableAutoFill": "Enable autofill",
+    "@preferenceEnableAutoFill": {},
+    "preferenceAutoFillDescription": "Only supported on Android Oreo (8.0) or later.",
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "Preferences",
+    "@preferenceTitle": {},
+    "aboutAppName": "AuthPass",
+    "@aboutAppName": {},
+    "aboutLinkFeedback": "We welcome any kind of feedback!",
+    "@aboutLinkFeedback": {},
+    "aboutLinkVisitWebsite": "Also make sure to visit our website",
+    "@aboutLinkVisitWebsite": {},
+    "aboutLinkGitHub": "And Open Source Project",
+    "@aboutLinkGitHub": {},
+    "aboutLogFile": "Log File: {logFilePath}",
+    "@aboutLogFile": {
+        "placeholders": {
+            "logFilePath": {
+                "type": "String",
+                "example": "/Users/mustermann/log.txt"
+            }
+        }
+    },
+    "menuItemGeneratePassword": "Generate Password",
+    "@menuItemGeneratePassword": {},
+    "menuItemPreferences": "Preferences",
+    "@menuItemPreferences": {},
+    "menuItemOpenAnotherFile": "Open another File",
+    "@menuItemOpenAnotherFile": {},
+    "menuItemCheckForUpdates": "Check for updates",
+    "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "Email Support",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "Send logs by email/ask for help.",
+    "@menuItemSupportSubtitle": {},
+    "menuItemHelp": "Help",
+    "@menuItemHelp": {},
+    "menuItemHelpSubtitle": "Show documentation",
+    "@menuItemHelpSubtitle": {},
+    "menuItemAbout": "About",
+    "@menuItemAbout": {},
+    "passwordPlainText": "Reveal password",
+    "@passwordPlainText": {
+        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+    }
+}
