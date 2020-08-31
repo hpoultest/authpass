@@ -1,30 +1,30 @@
 {
-    "@@locale": "de",
-    "fieldUserName": "Benutzer",
+    "@@locale": "en",
+    "fieldUserName": "User",
     "@fieldUserName": {},
-    "fieldPassword": "Passwort",
+    "fieldPassword": "Password",
     "@fieldPassword": {},
-    "fieldWebsite": "Webseite",
+    "fieldWebsite": "Website",
     "@fieldWebsite": {},
-    "fieldTitle": "Titel",
+    "fieldTitle": "Title",
     "@fieldTitle": {},
-    "selectKeepassFile": "AuthPass - Wähle eine Keepass Datei",
+    "selectKeepassFile": "AuthPass - Select KeePass File",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
-    "quickUnlockingFiles": "Quick-Unlock Dateien",
+    "quickUnlockingFiles": "Quick unlocking files",
     "@quickUnlockingFiles": {
         "context": "select file screen"
     },
-    "selectKeepassFileLabel": "Bitte wähle eine Keepass (.kdbx) Datei.",
+    "selectKeepassFileLabel": "Please select a KeePass (.kdbx) file.",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
-    "openLocalFile": "Öffne\nLokale Datei",
+    "openLocalFile": "Open\nLocal File",
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
     },
-    "loadFrom": "Lade von {cloudStorageName}",
+    "loadFrom": "Load from {cloudStorageName}",
     "@loadFrom": {
         "placeholders": {
             "cloudStorageName": {
@@ -33,29 +33,79 @@
             }
         }
     },
-    "loadFromUrl": "Lade von URL",
+    "loadFromUrl": "Download from URL",
     "@loadFromUrl": {},
-    "createNewKeepass": "KeePass noch nie verwendet?\nJetzt neue Passwort Datenbank erstellen",
+    "createNewKeepass": "New to KeePass?\nCreate New Password Database",
     "@createNewKeepass": {},
-    "labelLastOpenFiles": "Zuletzt geöffnete Dateien:",
+    "labelLastOpenFiles": "Last opened files:",
     "@labelLastOpenFiles": {},
-    "noFilesHaveBeenOpenYet": "Keine Dateien bisher geöffnet.",
+    "noFilesHaveBeenOpenYet": "No files have been opened yet.",
     "@noFilesHaveBeenOpenYet": {},
-    "preferenceSelectLanguage": "Sprache wählen",
+    "preferenceSelectLanguage": "Select Language",
     "@preferenceSelectLanguage": {},
-
-    "preferenceLanguage": "Sprache",
-
-    "preferenceTextScaleFactor": "Text Skallierung",
-    "preferenceVisualDensity": "Visuelle Dichte",
+    "preferenceLanguage": "Language",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "Text Scale Factor",
+    "@preferenceTextScaleFactor": {},
+    "preferenceVisualDensity": "Visual Density",
+    "@preferenceVisualDensity": {},
     "preferenceTheme": "Theme",
-    "preferenceThemeLight": "Hell",
-    "preferenceThemeDark": "Dunkel",
-    "preferenceSystemDefault": "Geräte Standardeinstellung",
-    "preferenceDefault": "Standard",
-    "lockAllFiles": "Alle offenen Dateien schließen",
-    "preferenceAllowScreenshots": "Screenshots der App zulassen",
-    "preferenceEnableAutoFill": "Autofill aktivieren",
-    "preferenceAutoFillDescription": "Wird nur auf ab Android Oreo (8.0) unterstützt.",
-    "preferenceTitle": "Einstellungen"
+    "@preferenceTheme": {},
+    "preferenceThemeLight": "Light",
+    "@preferenceThemeLight": {},
+    "preferenceThemeDark": "Dark",
+    "@preferenceThemeDark": {},
+    "preferenceSystemDefault": "System Default",
+    "@preferenceSystemDefault": {},
+    "preferenceDefault": "Default",
+    "@preferenceDefault": {},
+    "lockAllFiles": "Lock all open files",
+    "@lockAllFiles": {},
+    "preferenceAllowScreenshots": "Allow Screenshots of the App",
+    "@preferenceAllowScreenshots": {},
+    "preferenceEnableAutoFill": "Enable autofill",
+    "@preferenceEnableAutoFill": {},
+    "preferenceAutoFillDescription": "Only supported on Android Oreo (8.0) or later.",
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "Preferences",
+    "@preferenceTitle": {},
+    "aboutAppName": "AuthPass",
+    "@aboutAppName": {},
+    "aboutLinkFeedback": "We welcome any kind of feedback!",
+    "@aboutLinkFeedback": {},
+    "aboutLinkVisitWebsite": "Also make sure to visit our website",
+    "@aboutLinkVisitWebsite": {},
+    "aboutLinkGitHub": "And Open Source Project",
+    "@aboutLinkGitHub": {},
+    "aboutLogFile": "Log File: {logFilePath}",
+    "@aboutLogFile": {
+        "placeholders": {
+            "logFilePath": {
+                "type": "String",
+                "example": "/Users/mustermann/log.txt"
+            }
+        }
+    },
+    "menuItemGeneratePassword": "Generate Password",
+    "@menuItemGeneratePassword": {},
+    "menuItemPreferences": "Preferences",
+    "@menuItemPreferences": {},
+    "menuItemOpenAnotherFile": "Open another File",
+    "@menuItemOpenAnotherFile": {},
+    "menuItemCheckForUpdates": "Check for updates",
+    "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "Email Support",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "Send logs by email/ask for help.",
+    "@menuItemSupportSubtitle": {},
+    "menuItemHelp": "Help",
+    "@menuItemHelp": {},
+    "menuItemHelpSubtitle": "Show documentation",
+    "@menuItemHelpSubtitle": {},
+    "menuItemAbout": "About",
+    "@menuItemAbout": {},
+    "passwordPlainText": "Reveal password",
+    "@passwordPlainText": {
+        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+    }
 }
