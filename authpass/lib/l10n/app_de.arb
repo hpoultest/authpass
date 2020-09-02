@@ -1,5 +1,5 @@
 {
-    "@@locale": "de",
+    "@@locale": "en",
     "fieldUserName": "Benutzer",
     "@fieldUserName": {},
     "fieldPassword": "Passwort",
@@ -43,19 +43,28 @@
     "@noFilesHaveBeenOpenYet": {},
     "preferenceSelectLanguage": "Sprache wählen",
     "@preferenceSelectLanguage": {},
-
     "preferenceLanguage": "Sprache",
-
+    "@preferenceLanguage": {},
     "preferenceTextScaleFactor": "Text Skallierung",
+    "@preferenceTextScaleFactor": {},
     "preferenceVisualDensity": "Visuelle Dichte",
-    "preferenceTheme": "Theme",
+    "@preferenceVisualDensity": {},
     "preferenceThemeLight": "Hell",
+    "@preferenceThemeLight": {},
     "preferenceThemeDark": "Dunkel",
+    "@preferenceThemeDark": {},
     "preferenceSystemDefault": "Geräte Standardeinstellung",
+    "@preferenceSystemDefault": {},
     "preferenceDefault": "Standard",
+    "@preferenceDefault": {},
     "lockAllFiles": "Alle offenen Dateien schließen",
+    "@lockAllFiles": {},
     "preferenceAllowScreenshots": "Screenshots der App zulassen",
+    "@preferenceAllowScreenshots": {},
     "preferenceEnableAutoFill": "Autofill aktivieren",
+    "@preferenceEnableAutoFill": {},
     "preferenceAutoFillDescription": "Wird nur auf ab Android Oreo (8.0) unterstützt.",
-    "preferenceTitle": "Einstellungen"
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "Einstellungen",
+    "@preferenceTitle": {}
 }
