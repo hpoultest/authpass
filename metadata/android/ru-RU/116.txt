@@ -1,0 +1,6 @@
+1.4.0:
+* Добавлена поддержка 2fa (2nd Factor Authentication) на основе одноразовых паролей (TOTP).
+* Несколько исправлений ошибок и улучшений в сообщениях об ошибках.
+
+См. также https://authpass.app/articles/time-based-one-time-tokens-for-2nd-factor-otpauth/
+
