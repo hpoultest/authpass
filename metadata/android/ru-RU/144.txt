@@ -1,11 +1,11 @@
 # 1.7.5
 
-* Password fields: Do not obscure if they are empty.
-* Fix length selector in password generator.
-* Desktop: Improvements to keyboard handling:
-  * cmd/ctrl+c: Will only copy password if not in another text field.
-  * ESC: Will blur the current text field. If inside the search bar, will cancel the search.
-  * Linux: Workaround for pasting into text fields.
-* iOS: Allow copying of kdbx files from/to application docs dir with iTunes/Finder. #110
-* Linux: Fix argon2 lib loading for kdbx 4. #131
+* Поля пароля: не затемняйте, если они пустые.
+* Исправлен селектор длины в генераторе паролей.
+* Рабочий стол: улучшения обработки клавиатуры:
+  * cmd/ctrl+c: Скопирует пароль, если он не в другом текстовом поле.
+  * ESC: Размывает текущее текстовое поле. Если внутри строки поиска - то будет отменён поиск.
+  * Linux: обходное решение для вставки в текстовые поля.
+* iOS: Разрешить копирование файлов kdbx из /в папки приложения docs в iTunes/Finder. #110
+* Linux: Исправлена загрузка argon2 lib для kdbx 4. #131
 
