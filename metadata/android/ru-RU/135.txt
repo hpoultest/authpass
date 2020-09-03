@@ -1,0 +1,6 @@
+* Поддержка Microsoft OneDrive (#71)
+* Улучшен процесс авторизации для Dropbox.
+* Добавилась настройк визуальной плотности и масштаба шрифтов.
+* TOTP: Disable OTP secret padding (makes it more compatible with e.g. GitHub, Amazon, etc.)
+* TOTP: Fix barcode scanner (missing camera permissions)
+
