@@ -1,16 +1,16 @@
 # 1.7.2
 
-* Bug fix for Entry display
-* Fix fdroid build
+* Fehlerbehebung für die Eintragsanzeige
+* Fdroid-Build reparieren
 
 # 1.7.0
 
-* Improved group filter by showing recursive filter and trash.
-* Password Entry: Only show "generate password" button if value is blank. #108
-* Entry: Fix: Adding a custom field discards previous changes. #106
-* WebDAV: Connect UI: Make dialog scrollable. #103
-* WebDAV: Fixed Compatibility with servers returning trailing slashes for directories.
-* WebDAV: Support for digest authentication (next to basic auth). #112
-* Android: allow disabling of screenshots #100
-* Windows: Initial Windows Support 🎉️
+* Gruppenfilter wurde verbessert, indem Rekursivfilter und Papierkorb angezeigt wurden.
+* Passwort-Eintrag: Zeige nur "Passwort generieren"-Button, wenn der Wert leer ist. #108
+* Eintrag: Fehler: Hinzufügen eines benutzerdefinierten Feldes verwirft vorherige Änderungen. #106
+* WebDAV: Verbinde UI: Dialogfenster scrollbar machen. #103
+* WebDAV: Kompatibilität mit Servern, die am Ende liegende Schrägstriche für Verzeichnisse zurückgeben.
+* WebDAV: Unterstützung für Digest-Authentifizierung (neben dem Basic auth). #112
+* Android: Deaktivierung von Screenshots #100
+* Windows: Startunterstützung für Windows 🎉
 
