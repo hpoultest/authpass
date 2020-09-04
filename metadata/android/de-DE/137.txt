@@ -1,6 +1,6 @@
-* Group Management/Filter: Add Drawer for easy filtering by Groups.
-* Fixed saving files in Dropbox root folder.
-* Use default colors when opening files (do not use gray).
-* iOS: Support for Quick Unlock with Face ID.
-* MacOS: Fixed adding file attachments.
-* Android: Allow installation on sdcard.
+* Gruppenverwaltung/Filter: Drawer hinzufügen, um nach Gruppen zu filtern.
+* Speichern von Dateien im Dropbox-Root-Ordner behoben.
+* Standardfarben beim Öffnen von Dateien verwenden (nicht grau verwenden).
+* iOS: Unterstützung für Quick Unlock mit Face-ID.
+* MacOS: Dateianhänge wurden behoben.
+* Android: Installation auf sdcard erlauben.
