@@ -8,7 +8,7 @@
     "@fieldWebsite": {},
     "fieldTitle": "Titel",
     "@fieldTitle": {},
-    "selectKeepassFile": "AuthPass - Wähle eine Keepass Datei",
+    "selectKeepassFile": "AuthPass - Wähle eine KeePass Datei",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
@@ -16,7 +16,7 @@
     "@quickUnlockingFiles": {
         "context": "select file screen"
     },
-    "selectKeepassFileLabel": "Bitte wähle eine Keepass (.kdbx) Datei.",
+    "selectKeepassFileLabel": "Bitte wähle eine KeePass (.kdbx) Datei.",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
