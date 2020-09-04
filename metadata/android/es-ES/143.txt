@@ -1,19 +1,19 @@
 # 1.7.4
 
-* Show custom icons for passwords and groups #68
-* Show encryption options in file options, allow upgrading to kdbx 4.
-* By default create kdbx v4 files (instead of kdbx 3.1)
-* Desktop: Fixed wrong locale.
-* Android: Improved autofill (automatically filter by app or web domain).
-* Android: Fix autofill error unsupported errors on devices prior to Android Oreo (8.0).
-* Android/iOS: Use new FilePickerWritable API to correctly clean up temporary files.
+* Mostrar iconos personalizados para contraseñas y grupos #68
+* Mostrar opciones de cifrado en opciones de archivo, permitiendo actualizar a kdbx 4.
+* Por defecto crear archivos kdbx v4 (en lugar de kdbx 3.1)
+* Desktop: Se ha corregido un local incorrecto.
+* Android: Autorrelleno mejorado (filtro automático por aplicación o dominio web).
+* Android: Corregir error de autorrelleno de errores no soportados en dispositivos anteriores a Android Oreo (8.0).
+* Android/iOS: Utilice la nueva API FilePickerWritable para limpiar correctamente los archivos temporales.
 
 # 1.7.3
 
-* Fixed possible error dialogs #124 ("The method 'markNeedsBuild' was called on null")
-* Fixed error in group list when adding new subgroups while a filter is active.
-* UI: Progress overlay on initial page now matches screen height.
-* UI: allow displaying of plain text master password during unlocking. #86
-* KDBX: fix bug saving files with history entries which contain attachments.
-* KDBX: fix saving of history entries.
+* Corregido posible diálogo de errores #124 (el método 'markNeedsBuild' fue llamado en null")
+* Corregido error en la lista de grupos al agregar nuevos subgrupos mientras un filtro está activo.
+* UI: El progreso superpuesto en la página inicial ahora coincide con la altura de la pantalla.
+* UI: permite mostrar la contraseña maestra de texto plano durante el desbloqueo. #86
+* KDBX: corregir errores guardando archivos con entradas de historial que contienen archivos adjuntos.
+* KDBX: corregir guardado de entradas de historial.
 
