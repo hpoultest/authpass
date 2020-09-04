@@ -1,9 +1,9 @@
 # 1.7.3
 
-* Fixed possible error dialogs #124 ("The method 'markNeedsBuild' was called on null")
-* Fixed error in group list when adding new subgroups while a filter is active.
-* UI: Progress overlay on initial page now matches screen height.
-* UI: allow displaying of plain text master password during unlocking. #86
-* KDBX: fix bug saving files with history entries which contain attachments.
-* KDBX: fix saving of history entries.
+* Correction des boîtes de dialogue d'erreur possibles #124 (La méthode 'markNeedsBuild' a été appelée sur null")
+* Correction d'une erreur dans la liste des groupes lors de l'ajout de nouveaux sous-groupes alors qu'un filtre est actif.
+* UI : La superposition de progression sur la page initiale correspond maintenant à la hauteur de l'écran.
+* UI : permet l'affichage du mot de passe maître en texte brut lors du déverrouillage. #86
+* KDBX : corrige le bug de sauvegarde avec les entrées d'historique qui contiennent des pièces jointes.
+* KDBX : correction de l'enregistrement des entrées d'historique.
 
