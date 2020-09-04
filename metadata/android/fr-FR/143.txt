@@ -1,19 +1,19 @@
 # 1.7.4
 
-* Show custom icons for passwords and groups #68
-* Show encryption options in file options, allow upgrading to kdbx 4.
-* By default create kdbx v4 files (instead of kdbx 3.1)
-* Desktop: Fixed wrong locale.
-* Android: Improved autofill (automatically filter by app or web domain).
-* Android: Fix autofill error unsupported errors on devices prior to Android Oreo (8.0).
-* Android/iOS: Use new FilePickerWritable API to correctly clean up temporary files.
+* Afficher les icônes personnalisées pour les mots de passe et les groupes #68
+* Afficher les options de chiffrement dans les options de fichiers, permettre la mise à niveau vers kdbx 4.
+* Par défaut, créez des fichiers kdbx v4 (au lieu de kdbx 3.1)
+* Bureau : mauvaise locale fixée.
+* Android : Amélioration du remplissage automatique (filtre automatiquement par application ou domaine web).
+* Android : Corrige les erreurs de remplissage automatique non prises en charge sur les appareils antérieurs à Android Oreo (8.0).
+* Android/iOS: Utiliser la nouvelle API FilePickerWritable pour nettoyer correctement les fichiers temporaires.
 
 # 1.7.3
 
-* Fixed possible error dialogs #124 ("The method 'markNeedsBuild' was called on null")
-* Fixed error in group list when adding new subgroups while a filter is active.
-* UI: Progress overlay on initial page now matches screen height.
-* UI: allow displaying of plain text master password during unlocking. #86
-* KDBX: fix bug saving files with history entries which contain attachments.
-* KDBX: fix saving of history entries.
+* Correction des boîtes de dialogue d'erreur possibles #124 (La méthode 'markNeedsBuild' a été appelée sur null")
+* Correction d'une erreur dans la liste des groupes lors de l'ajout de nouveaux sous-groupes alors qu'un filtre est actif.
+* UI : La superposition de progression sur la page initiale correspond maintenant à la hauteur de l'écran.
+* UI : permet l'affichage du mot de passe maître en texte brut lors du déverrouillage. #86
+* KDBX : corrige le bug de sauvegarde avec les entrées d'historique qui contiennent des pièces jointes.
+* KDBX : correction de l'enregistrement des entrées d'historique.
 
