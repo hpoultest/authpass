@@ -1,1 +1,1 @@
-„AuthPass“ - Su „KeePass“ suderinama slaptažodžių tvarkyklė
+AuthPass - KeePass compatible Password Manager
