@@ -66,5 +66,10 @@
     "preferenceAutoFillDescription": "Wird nur auf ab Android Oreo (8.0) unterstützt.",
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "Einstellungen",
-    "@preferenceTitle": {}
+    "@preferenceTitle": {},
+    "masterPasswordInputLabel": "Passwort",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    }
 }
