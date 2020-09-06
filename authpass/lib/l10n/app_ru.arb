@@ -169,6 +169,11 @@
     "@copiedToClipboard": {
         "description": "Snackbar text when copying text to clipboard."
     },
+    "masterPasswordInputLabel": "Пароль",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    },
     "unexpectedError": "Неожиданная ошибка: {error}",
     "@unexpectedError": {
         "placeholders": {
