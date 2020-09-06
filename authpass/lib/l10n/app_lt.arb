@@ -173,6 +173,11 @@
     "@copiedToClipboard": {
         "description": "Snackbar text when copying text to clipboard."
     },
+    "masterPasswordInputLabel": "Slaptažodis",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    },
     "unexpectedError": "Nenumatyta klaida: {error}",
     "@unexpectedError": {
         "placeholders": {
