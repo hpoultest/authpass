@@ -40,31 +40,31 @@ Werde Teil der Community und besuche unseren <a href=""https://authpass.app/go/d
 
 AuthPass ist ein nativer Passwort Manager der das populäre und auf Sicherheit erprobte Format von KeePass verwendet. Dies stellt sicher, dass all Deine Passwörter verschlüsselt und sicher gespeichert sind. Außerdem erlaubt es all deine Passwörter zwischen all deinen Geräten zu synchronisieren und deine Zugangsdaten zu finden, wo auch immer du sie brauchst.
 
-🗄 All deine Passwörter an einem Ort, einfaches suchen und finden.
-🧬 Generiere sichere Zufallspasswörter für jeden einzelnen deiner Benutzeraccounts, für alle Services.
-🔐 ""Quick Unlock"" (Speicherung des Master Passworts) im sicheren Gerätespeicher mit Biometrischer Verschlüsselung (Fingerabdruck oder Gesichtserkennung, je nach Gerät).
-🔍 Behalte den Überblick über all deine Benutzerkonten und Zugangsdaten.
-🖥 App ist verfügbar auf allen Platformen, unter anderem auf Mac, iPhone, iPad.
-📂 Öffne mehrere unterschiedliche Passwort Dateien/Datenbanken. (z.B.: Eine für berufliche und eine für private Passwörter. Oder teile eine Datenbank mit Kollegen oder Freunden).
-🤓 Open Source Projekt unter https://github.com/authpass/authpass/
-🔦 Dark Theme 😎️
+• All deine Passwörter an einem Ort, einfaches suchen und finden.
+• Generiere sichere Zufallspasswörter für jeden einzelnen deiner Benutzeraccounts, für alle Services.
+• ""Quick Unlock"" (Speicherung des Master Passworts) im sicheren Gerätespeicher mit Biometrischer Verschlüsselung (Fingerabdruck oder Gesichtserkennung, je nach Gerät).
+• Behalte den Überblick über all deine Benutzerkonten und Zugangsdaten.
+• App ist verfügbar auf allen Platformen, unter anderem auf Mac, iPhone, iPad.
+• Öffne mehrere unterschiedliche Passwort Dateien/Datenbanken. (z.B.: Eine für berufliche und eine für private Passwörter. Oder teile eine Datenbank mit Kollegen oder Freunden).
+• Open Source Projekt unter https://github.com/authpass/authpass/
+• Dark Theme ;-)
 
 
 === Du hast volle Kontrolle ===
 AuthPass speichert all deine Passwörter im KeePass format, in einer Datei wo auch immer du diese ablegen möchtest. Entweder lokal am Gerät, oder auf Cloud Storage Diensten wie Dropbox, Google Drive, One Drive oder eigenen WebDav server:
 
-✅️ Jeder lokale Content Provider von Android.
-✅️ Native Google Drive Integration
-✅️ Native Dropbox Integration
-✅️ Native WebDAV support zum speichern in deiner eigenen NextCloud or OwnCloud (oder ähnlichem)
-✅️ Native Microsoft OneDrive Integration
+• Jeder lokale Content Provider von Android.
+• Native Google Drive Integration
+• Native Dropbox Integration
+• Native WebDAV support zum speichern in deiner eigenen NextCloud or OwnCloud (oder ähnlichem)
+• Native Microsoft OneDrive Integration
 
 === FULL FEATURED, KEINE WERBUNG, KEINE ABOS ===
 Als ein Open Source Projekt gibt es keine künstlichen Funktionsbeschränkungen, keine Werbung und keine Notwendigkeit für Zahlungen oder Abos.
 
-Mitwirken am Open Source Projekt gewünscht 😅️ (Wir suchen immer nach Entwicklern, Übersetzern, Dokumentations-Autoren, Grafiker, etc. 😉️), komm einfach in unseren discord channel: https://authpass.app/go/discord
+Mitwirken am Open Source Projekt gewünscht ;`) (Wir suchen immer nach Entwicklern, Übersetzern, Dokumentations-Autoren, Grafiker, etc. ;) ), komm einfach in unseren discord channel: https://authpass.app/go/discord
 
-=== AKTIV WEITER ENTWICKELT 🛠️ ===
+=== AKTIV WEITER ENTWICKELT ===
 Dieses Open Source Projekt wird ständig weiter entwickelt und es gibt regelmäßig updates und neue features. Wir bauen auf dein Feedback! Per E-Mail oder in unserem issue tracker unter https://github.com/authpass/authpass/issues/
 
 Werde Teil der Community und besuche unseren discord channel unter https://authpass.app/go/discord
