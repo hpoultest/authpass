@@ -28,6 +28,10 @@
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
     },
+    "openFile": "Atidaryti failą",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
     "loadFrom": "Iškelti iš {cloudStorageName}",
     "@loadFrom": {
         "placeholders": {
@@ -169,9 +173,52 @@
             }
         }
     },
+    "savedFiles": "{numFiles,plural, one {Vienas failas išsaugotas: {files}}, kiti {{numFiles} failai išsaugoti: {files}}}",
+    "@savedFiles": {
+        "description": "Message displayed when files were saved. (One or more).",
+        "context": "Password list",
+        "placeholders": {
+            "numFiles": {
+                "description": "Number of files that have been saved (at least 1)",
+                "type": "int",
+                "format": "compactLong"
+            },
+            "files": {
+                "description": "Comma separated list of vault names."
+            }
+        }
+    },
+    "manageGroups": "Tvarkyti grupes",
+    "@manageGroups": {
+        "description": ""
+    },
+    "lockFiles": "Užrakinti failus",
+    "@lockFiles": {
+        "description": "Close all files and return to start screen."
+    },
+    "searchHint": "Ieškoti",
+    "@searchHint": {
+        "description": "Placeholder in the password list search box"
+    },
+    "clear": "Valyti",
+    "@clear": {
+        "description": "Remove existing group filter from password list"
+    },
+    "autofillFilterPrefix": "Filtras:",
+    "@autofillFilterPrefix": {
+        "description": "Label displayed for android auto fill"
+    },
     "copiedToClipboard": "Nukopijuota į iškarpinę.",
     "@copiedToClipboard": {
         "description": "Snackbar text when copying text to clipboard."
+    },
+    "noTitle": "(nėra pavadinimo)",
+    "@noTitle": {
+        "description": "Text to display in place of a title, when password entry has no name assigned."
+    },
+    "noUsername": "(nėra naudotojo vardo)",
+    "@noUsername": {
+        "description": "Text to display in place of a user name in the password list if none is defined."
     },
     "masterPasswordInputLabel": "Slaptažodis",
     "@masterPasswordInputLabel": {
