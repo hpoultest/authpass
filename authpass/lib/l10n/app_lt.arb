@@ -1,5 +1,5 @@
 {
-    "@@locale": "lt",
+    "@@locale": "en",
     "fieldUserName": "Naudotojas",
     "@fieldUserName": {},
     "fieldPassword": "Slaptažodis",
@@ -170,21 +170,6 @@
         "placeholders": {
             "customMinLength": {
                 "example": "40"
-            }
-        }
-    },
-    "savedFiles": "{numFiles,plural, one {Vienas failas išsaugotas: {files}}, other {{numFiles} failai išsaugoti: {files}}}",
-    "@savedFiles": {
-        "description": "Message displayed when files were saved. (One or more).",
-        "context": "Password list",
-        "placeholders": {
-            "numFiles": {
-                "description": "Number of files that have been saved (at least 1)",
-                "type": "int",
-                "format": "compactLong"
-            },
-            "files": {
-                "description": "Comma separated list of vault names."
             }
         }
     },
