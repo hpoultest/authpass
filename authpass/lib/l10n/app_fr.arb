@@ -268,6 +268,10 @@
     "@doneCopiedUsername": {
         "description": "snackbar confirmation that username was copied."
     },
+    "doneCopiedField": "Copié.",
+    "@doneCopiedField": {
+        "description": ""
+    },
     "emptyPasswordVaultPlaceholder": "Vous n'avez pas encore de mot de passe dans votre base de données.",
     "@emptyPasswordVaultPlaceholder": {
         "description": "Placeholder text shown when a user opens an empty password file."
@@ -407,6 +411,10 @@
     "@undoButtonLabel": {
         "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
     },
+    "saveButtonLabel": "Sauvegarder",
+    "@saveButtonLabel": {
+        "description": "save file, for example button displayed in entry details"
+    },
     "initialNewGroupName": "Nouveau groupe",
     "@initialNewGroupName": {
         "description": "initial name of groups when user creates a new one."
@@ -430,6 +438,38 @@
     "groupListFilterAppbarTitle": "Filtrer par groupes",
     "@groupListFilterAppbarTitle": {
         "description": "title in the app bar for group lists when displayed for filtering password list"
+    },
+    "clearQuickUnlock": "Effacer le stockage des données biométriques",
+    "@clearQuickUnlock": {
+        "description": ""
+    },
+    "clearQuickUnlockSubtitle": "Effacer le mot de passe maître",
+    "@clearQuickUnlockSubtitle": {
+        "description": ""
+    },
+    "unlock": "Déverrouiller les fichiers",
+    "@unlock": {
+        "description": ""
+    },
+    "closePasswordFiles": "fermer les fichiers contenant les mot de passe",
+    "@closePasswordFiles": {
+        "description": "delete quick unlock (passwords stored in biometric storage)"
+    },
+    "clearQuickUnlockSuccess": "Effacer les mots de passe maître sauvegardés dans l’espace de stockage des données biométriques.",
+    "@clearQuickUnlockSuccess": {
+        "description": ""
+    },
+    "enableAutofillDebug": "Remplissage automatique: Activer le débuggage",
+    "@enableAutofillDebug": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "masterPasswordMissingCreate": "S’il vous plait entrer un mot de passe sécurisé, que vous pouvez retenir.",
+    "@masterPasswordMissingCreate": {
+        "description": "Text displayed when master password is empty while creating new password database"
+    },
+    "databaseCreateDefaultName": "Mots de passe personnel",
+    "@databaseCreateDefaultName": {
+        "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
     },
     "unexpectedError": "Erreur inattendue : {error}",
     "@unexpectedError": {
