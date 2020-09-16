@@ -48,6 +48,10 @@
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
+    "createNewFile": "Créer un nouveau fichier",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
     "openLocalFile": "Ouvrir un fichier local",
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
@@ -66,9 +70,17 @@
         }
     },
     "loadFromUrl": "Télécharger depuis une adresse Web",
-    "@loadFromUrl": {},
+    "@loadFromUrl": {
+        "description": "deprecated"
+    },
+    "loadFromRemoteUrl": "Ouvrir un fichier kdbx depuis une adresse web",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
     "createNewKeepass": "Nouveau sur KeePass?\nCréez une nouvelle base de données de mots de passe",
-    "@createNewKeepass": {},
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
     "labelLastOpenFiles": "Derniers fichiers ouverts :",
     "@labelLastOpenFiles": {},
     "noFilesHaveBeenOpenYet": "Aucun fichier n'a été ouvert pour le moment.",
@@ -485,7 +497,11 @@
     },
     "masterPasswordHelpText": "Sélectionnez un mot de passe principal sécurisé. Assurez-vous de vous en souvenir.",
     "@masterPasswordHelpText": {
-        "description": "help text for master password when creating new password database"
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+    },
+    "inputMasterPasswordText": "Mot de passe principal",
+    "@inputMasterPasswordText": {
+        "description": "Creating new file: input field for master password"
     },
     "masterPasswordMissingCreate": "S’il vous plait entrer un mot de passe sécurisé, que vous pouvez retenir.",
     "@masterPasswordMissingCreate": {
@@ -610,7 +626,7 @@
     "@fieldUnprotect": {
         "description": ""
     },
-    "fieldPresent": "Présent",
+    "fieldPresent": "Afficher",
     "@fieldPresent": {
         "description": ""
     },
@@ -638,7 +654,7 @@
     "@onboardingYesOpenPasswords": {
         "description": ""
     },
-    "onboardingNoCreate": "Non, ceci est nouveau pour moi !",
+    "onboardingNoCreate": "Je suis tout nouveau ! Commençons ensemble.",
     "@onboardingNoCreate": {
         "description": ""
     },
