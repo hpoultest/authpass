@@ -66,9 +66,13 @@
         }
     },
     "loadFromUrl": "Descargar desde URL",
-    "@loadFromUrl": {},
+    "@loadFromUrl": {
+        "description": "deprecated"
+    },
     "createNewKeepass": "¿Nuevo en KeePass?\nCrear nueva base de datos de contraseñas",
-    "@createNewKeepass": {},
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
     "labelLastOpenFiles": "Últimos archivos abiertos:",
     "@labelLastOpenFiles": {},
     "noFilesHaveBeenOpenYet": "Aún no se han abierto archivos.",
