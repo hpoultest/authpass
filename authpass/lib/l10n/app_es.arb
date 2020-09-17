@@ -36,6 +36,10 @@
     "@french": {
         "description": "language switcher subtitle"
     },
+    "spanish": "Español",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - Seleccionar archivo KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
@@ -47,6 +51,10 @@
     "selectKeepassFileLabel": "Por favor seleccione un archivo KeePass (.kdbx).",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
+    },
+    "createNewFile": "Crear nuevo archivo",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
     },
     "openLocalFile": "Abrir archivo local",
     "@openLocalFile": {
