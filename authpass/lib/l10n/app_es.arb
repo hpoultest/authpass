@@ -443,6 +443,14 @@
     "@deleteGroupErrorTitle": {
         "description": "Title of error dialog when group could not be deleted."
     },
+    "deleteGroupErrorBodyContainsGroup": "Este grupo aún contiene otros grupos. Actualmente sólo puede eliminar grupos vacíos.",
+    "@deleteGroupErrorBodyContainsGroup": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "deleteGroupErrorBodyContainsEntries": "Este grupo aún contiene entradas de contraseña. Actualmente sólo puede eliminar grupos vacíos.",
+    "@deleteGroupErrorBodyContainsEntries": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
     "groupListAppBarTitle": "Grupos",
     "@groupListAppBarTitle": {
         "description": "title in the app bar for the groups list"
@@ -455,6 +463,10 @@
     "@clearQuickUnlock": {
         "description": ""
     },
+    "clearQuickUnlockSubtitle": "Eliminar contraseñas maestras guardadas",
+    "@clearQuickUnlockSubtitle": {
+        "description": ""
+    },
     "unlock": "Desbloquear archivos",
     "@unlock": {
         "description": ""
@@ -463,9 +475,29 @@
     "@closePasswordFiles": {
         "description": "delete quick unlock (passwords stored in biometric storage)"
     },
+    "clearQuickUnlockSuccess": "Eliminadas las contraseñas maestras guardadas del almacenamiento biométrico.",
+    "@clearQuickUnlockSuccess": {
+        "description": ""
+    },
+    "diacOptIn": "Opte por las noticias en la aplicación, encuestas.",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "Ocasionalmente enviará una solicitud de red para obtener noticias.",
+    "@diacOptInSubtitle": {},
+    "enableAutofillDebug": "Autollenado: Habilitar depuración",
+    "@enableAutofillDebug": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
     "databaseExistsError": "El archivo ya existe",
     "@databaseExistsError": {
         "description": "dialog title for error message when creating a new database with a name which already exists."
+    },
+    "entryInfoFile": "Archivo:",
+    "@entryInfoFile": {
+        "description": ""
+    },
+    "entryInfoGroup": "Grupo:",
+    "@entryInfoGroup": {
+        "description": ""
     },
     "entryAddField": "Añadir campo",
     "@entryAddField": {
