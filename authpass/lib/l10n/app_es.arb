@@ -40,6 +40,10 @@
     "@spanish": {
         "description": "language switcher subtitle"
     },
+    "indonesian": "Indonesio",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - Seleccionar archivo KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
