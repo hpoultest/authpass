@@ -487,9 +487,55 @@
     "@enableAutofillDebug": {
         "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
     },
+    "enableAutofillDebugSubtitle": "Muestra capas de información para cada campo de entrada",
+    "@enableAutofillDebugSubtitle": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "createPasswordDatabase": "Crear base de datos de contraseñas",
+    "@createPasswordDatabase": {
+        "description": ""
+    },
+    "nameNewPasswordDatabase": "Nombre de su nueva base de datos",
+    "@nameNewPasswordDatabase": {
+        "description": "creating new kdbx file, prompt"
+    },
+    "validatorNameMissing": "Por favor, introduzca un nombre para su nueva base de datos.",
+    "@validatorNameMissing": {
+        "description": "Error message when no password database name is given."
+    },
+    "masterPasswordHelpText": "Seleccione una contraseña maestra segura. Asegúrese de recordarla.",
+    "@masterPasswordHelpText": {
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+    },
+    "inputMasterPasswordText": "Contraseña maestra",
+    "@inputMasterPasswordText": {
+        "description": "Creating new file: input field for master password"
+    },
+    "masterPasswordMissingCreate": "Por favor, introduzca una contraseña segura y recordable.",
+    "@masterPasswordMissingCreate": {
+        "description": "Text displayed when master password is empty while creating new password database"
+    },
+    "createDatabaseAction": "Crear base de datos",
+    "@createDatabaseAction": {
+        "description": "Label for button to create new database"
+    },
     "databaseExistsError": "El archivo ya existe",
     "@databaseExistsError": {
         "description": "dialog title for error message when creating a new database with a name which already exists."
+    },
+    "databaseCreateDefaultName": "ContraseñasPersonales",
+    "@databaseCreateDefaultName": {
+        "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
+    },
+    "passwordScore": "Fortaleza: {score} de 4",
+    "@passwordScore": {
+        "description": "choosing a master password - calculated password strength.",
+        "placeholders": {
+            "score": {
+                "description": "integer of the score.",
+                "example": "3"
+            }
+        }
     },
     "entryInfoFile": "Archivo:",
     "@entryInfoFile": {
@@ -499,8 +545,20 @@
     "@entryInfoGroup": {
         "description": ""
     },
+    "entryInfoLastModified": "Última modificación:",
+    "@entryInfoLastModified": {
+        "description": ""
+    },
+    "entryAddAttachment": "Añadir archivo adjunto",
+    "@entryAddAttachment": {
+        "description": ""
+    },
     "entryAddField": "Añadir campo",
     "@entryAddField": {
+        "description": ""
+    },
+    "entryCustomField": "Campo personalizado",
+    "@entryCustomField": {
         "description": ""
     },
     "swipeCopyField": "Copiar campo",
@@ -510,6 +568,26 @@
     "fieldRename": "Renombrar",
     "@fieldRename": {
         "description": ""
+    },
+    "fieldProtect": "Proteger Valor",
+    "@fieldProtect": {
+        "description": ""
+    },
+    "fieldUnprotect": "Desproteger Valor",
+    "@fieldUnprotect": {
+        "description": ""
+    },
+    "fieldPresent": "Presentar",
+    "@fieldPresent": {
+        "description": ""
+    },
+    "fieldGenerateEmail": "Generar Email",
+    "@fieldGenerateEmail": {
+        "description": ""
+    },
+    "onboardingBackToOnboarding": "Tour",
+    "@onboardingBackToOnboarding": {
+        "description": "Context menu entry which reverts to onboarding"
     },
     "onboardingHeadline": "¡Hagamos que tus contraseñas sean seguras!",
     "@onboardingHeadline": {
