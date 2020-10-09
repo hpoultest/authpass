@@ -43,5 +43,52 @@
     "indonesian": "אינדונזית",
     "@indonesian": {
         "description": "language switcher subtitle"
-    }
+    },
+    "selectKeepassFile": "AuthPass - בחר קובץ KeePass",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "quickUnlockingFiles": "פתיחה מהירה של קבצים",
+    "@quickUnlockingFiles": {
+        "context": "select file screen"
+    },
+    "selectKeepassFileLabel": "אנא בחרו קובץ KeePass מסוג kdbx.",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "צור קובץ חדש",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "פתח קובץ לוקאלי",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "פתח קובץ",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFrom": "טען מ (cloudStorageName)",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromUrl": "הורד מ-URL",
+    "@loadFromUrl": {
+        "description": "deprecated"
+    },
+    "loadFromRemoteUrl": "פתח kdbx מ-URL",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
+    "createNewKeepass": "חדש ל-KeePass? צור מאגר סיסמאות חדש",
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
+    "labelLastOpenFiles": "קבצים שנפתחו לאחרונה:",
+    "@labelLastOpenFiles": {}
 }
