@@ -44,6 +44,14 @@
     "@indonesian": {
         "description": "language switcher subtitle"
     },
+    "turkish": "טורקית",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "עברית",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - בחר קובץ KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
@@ -90,5 +98,13 @@
         "description": "deprecated"
     },
     "labelLastOpenFiles": "קבצים שנפתחו לאחרונה:",
-    "@labelLastOpenFiles": {}
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "אין אף קבצים שנפתחו עדיין.",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "בחר שפה",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "שפה",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "מדד גודל הטקסט",
+    "@preferenceTextScaleFactor": {}
 }
