@@ -699,6 +699,19 @@
     "@onboardingNoCreate": {
         "description": ""
     },
+    "backupWarningMessage": "Vos mots de passe dans {databasename} ne sont sauvegardés que localement !",
+    "@backupWarningMessage": {
+        "description": "Warning message that is displayed in backup warnings",
+        "placeholders": {
+            "databasename": {
+                "example": "PasswordDatabase"
+            }
+        }
+    },
+    "saveAs": "Sauvegarder dans...",
+    "@saveAs": {
+        "description": "Save as text"
+    },
     "unexpectedError": "Erreur inattendue : {error}",
     "@unexpectedError": {
         "placeholders": {
