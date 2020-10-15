@@ -52,6 +52,14 @@
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
+    "selectKeepassFileLabel": "Seleziona un file KeePass ( .kdbx).",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "Crea un Nuovo File",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
     "openLocalFile": "Apri\nFile Locale",
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
