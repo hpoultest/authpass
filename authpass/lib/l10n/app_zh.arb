@@ -12,6 +12,10 @@
     "@fieldTotp": {
         "description": "Label for fields of TOTP (Time based one time passwords)"
     },
+    "chineseSimplified": "简体中文",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFileLabel": "请选择一个 KeePass数据库 文件。(后缀名是.kdbx)",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
@@ -41,6 +45,10 @@
     "@createNewKeepass": {
         "description": "deprecated"
     },
+    "labelLastOpenFiles": "上次打开的数据库:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "还想空手套白狼？赶快创建一个！",
+    "@noFilesHaveBeenOpenYet": {},
     "preferenceSelectLanguage": "选择界面语言",
     "@preferenceSelectLanguage": {},
     "preferenceLanguage": "界面语言",
@@ -81,6 +89,16 @@
     "@unableToLaunchUrlTitle": {
         "description": ""
     },
+    "menuItemGeneratePassword": "生成安全密码",
+    "@menuItemGeneratePassword": {},
+    "menuItemPreferences": "偏好设置",
+    "@menuItemPreferences": {},
+    "menuItemOpenAnotherFile": "打开另一个数据库",
+    "@menuItemOpenAnotherFile": {},
+    "menuItemCheckForUpdates": "检查更新",
+    "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "向开发组求助（使用电邮）",
+    "@menuItemSupport": {},
     "menuItemSupportSubtitle": "通过电子邮件发送日志/请求帮助。",
     "@menuItemSupportSubtitle": {},
     "menuItemHelp": "寻求帮助",
@@ -122,8 +140,51 @@
     "@searchHint": {
         "description": "Placeholder in the password list search box"
     },
-    "emptyPasswordVaultPlaceholder": "这个地方空空如也。。。难道你已经大彻大悟了？",
+    "swipeCopyPassword": "复制密码",
+    "@swipeCopyPassword": {
+        "description": "swipe action in password list to copy password"
+    },
+    "swipeCopyUsername": "复制用户名",
+    "@swipeCopyUsername": {
+        "description": "swipe action in password list to copy username"
+    },
+    "doneCopiedPassword": "密码已复制到剪贴板。",
+    "@doneCopiedPassword": {
+        "description": "snackbar confirmation that password was copied."
+    },
+    "doneCopiedUsername": "用户名已复制到剪贴板。",
+    "@doneCopiedUsername": {
+        "description": "snackbar confirmation that username was copied."
+    },
+    "doneCopiedField": "复制成功！",
+    "@doneCopiedField": {
+        "description": ""
+    },
+    "emptyPasswordVaultPlaceholder": "欢迎使用真理之匙！这里空空如也，准备好开始保护你的密码了吗？",
     "@emptyPasswordVaultPlaceholder": {
         "description": "Placeholder text shown when a user opens an empty password file."
+    },
+    "emptyPasswordVaultButtonLabel": "是的！开始添加第一个密码！",
+    "@emptyPasswordVaultButtonLabel": {
+        "description": "Button shown under placeholder text when password database is empty"
+    },
+    "loadingFile": "召唤真理之匙...",
+    "@loadingFile": {
+        "description": "credential screen while unlocking file."
+    },
+    "internalFileSubtitle": "之前使用AuthPass创建的数据库",
+    "@internalFileSubtitle": {
+        "description": "Choose a file previously created in AuthPass app sandbox",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "filePicker": "文件选择器",
+    "@filePicker": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "credentialsAppBarTitle": "输入你的加密凭据",
+    "@credentialsAppBarTitle": {
+        "description": "Credential screen to enter master password when opening kdbx file.",
+        "context": "credential screen"
     }
 }
