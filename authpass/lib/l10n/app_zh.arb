@@ -93,6 +93,19 @@
     "@unableToLaunchUrlTitle": {
         "description": ""
     },
+    "unableToLaunchUrlNoHandler": "找不到可以打开这个链接的应用程序",
+    "@unableToLaunchUrlNoHandler": {
+        "description": ""
+    },
+    "launchedUrl": "你打开的链接是：{url}",
+    "@launchedUrl": {
+        "description": "snackbar confirmation after opening a url externally",
+        "placeholders": {
+            "url": {
+                "description": "URL which was just launched."
+            }
+        }
+    },
     "menuItemGeneratePassword": "生成安全密码",
     "@menuItemGeneratePassword": {},
     "menuItemPreferences": "偏好设置",
@@ -170,6 +183,14 @@
     "clear": "清空",
     "@clear": {
         "description": "Remove existing group filter from password list"
+    },
+    "autofillFilterPrefix": "筛选：",
+    "@autofillFilterPrefix": {
+        "description": "Label displayed for android auto fill"
+    },
+    "copiedToClipboard": "成功复制到剪贴板",
+    "@copiedToClipboard": {
+        "description": "Snackbar text when copying text to clipboard."
     },
     "noTitle": "(无标题)",
     "@noTitle": {
