@@ -16,6 +16,10 @@
     "@chineseSimplified": {
         "description": "Language switcher subtitle"
     },
+    "selectKeepassFile": "奥术之钥 - 打开你的数据库",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
     "selectKeepassFileLabel": "请选择一个 KeePass数据库 文件。(后缀名是.kdbx)",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
@@ -77,13 +81,13 @@
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "设置",
     "@preferenceTitle": {},
-    "aboutAppName": "真理之匙",
+    "aboutAppName": "奥术之钥",
     "@aboutAppName": {},
-    "aboutLinkFeedback": "我们欢迎反馈意见！",
+    "aboutLinkFeedback": "我们随时欢迎任何意见！",
     "@aboutLinkFeedback": {},
     "aboutLinkVisitWebsite": "别忘了参观一下我们的网站",
     "@aboutLinkVisitWebsite": {},
-    "aboutLinkGitHub": "和这个自由开源项目的托管地址！",
+    "aboutLinkGitHub": "本项目是自由开源软件！",
     "@aboutLinkGitHub": {},
     "unableToLaunchUrlTitle": "无法打开链接",
     "@unableToLaunchUrlTitle": {
@@ -136,9 +140,48 @@
     "@characterSetLowerCase": {
         "context": "Password generator"
     },
+    "customLength": "自定义密码长度",
+    "@customLength": {
+        "description": "Label for custom length field",
+        "context": "Password generator"
+    },
+    "customLengthHelperText": "仅当需要长度多于 > {customMinLength} 位的密码时使用，必须是整数",
+    "@customLengthHelperText": {
+        "description": "Help text for custom length field",
+        "context": "Password generator",
+        "placeholders": {
+            "customMinLength": {
+                "example": "40"
+            }
+        }
+    },
+    "manageGroups": "分组管理",
+    "@manageGroups": {
+        "description": ""
+    },
+    "lockFiles": "锁定文件",
+    "@lockFiles": {
+        "description": "Close all files and return to start screen."
+    },
     "searchHint": "吾将上下而求索...",
     "@searchHint": {
         "description": "Placeholder in the password list search box"
+    },
+    "clear": "清空",
+    "@clear": {
+        "description": "Remove existing group filter from password list"
+    },
+    "noTitle": "(无标题)",
+    "@noTitle": {
+        "description": "Text to display in place of a title, when password entry has no name assigned."
+    },
+    "noUsername": "(无用户名)",
+    "@noUsername": {
+        "description": "Text to display in place of a user name in the password list if none is defined."
+    },
+    "filterCustomize": "自定义 …",
+    "@filterCustomize": {
+        "description": "Customize filter in password list"
     },
     "swipeCopyPassword": "复制密码",
     "@swipeCopyPassword": {
@@ -182,9 +225,53 @@
         "description": "Choose a file with the system's file picker. (ios/android)",
         "context": "open file picker: internal file vs. file picker"
     },
-    "credentialsAppBarTitle": "输入你的加密凭据",
+    "filePickerSubtitle": "从设备存储打开文件。",
+    "@filePickerSubtitle": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "credentialsAppBarTitle": "解锁密码",
     "@credentialsAppBarTitle": {
         "description": "Credential screen to enter master password when opening kdbx file.",
         "context": "credential screen"
+    },
+    "masterPasswordInputLabel": "请填入主密码",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "masterPasswordEmptyValidator": "请填入主密码",
+    "@masterPasswordEmptyValidator": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "diacOptIn": "想在本应用内收到我们的新闻和问卷调查吗？",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "会定时连接网络获取新闻和问卷。",
+    "@diacOptInSubtitle": {},
+    "inputMasterPasswordText": "主密码",
+    "@inputMasterPasswordText": {
+        "description": "Creating new file: input field for master password"
+    },
+    "masterPasswordMissingCreate": "请输入一个既安全又好记的密码",
+    "@masterPasswordMissingCreate": {
+        "description": "Text displayed when master password is empty while creating new password database"
+    },
+    "createDatabaseAction": "创建数据库",
+    "@createDatabaseAction": {
+        "description": "Label for button to create new database"
+    },
+    "databaseExistsError": "文件已存在",
+    "@databaseExistsError": {
+        "description": "dialog title for error message when creating a new database with a name which already exists."
+    },
+    "databaseExistsErrorDescription": "创建失败。这个位置已经有了同名文件。 请换一个名字。\n出错位置：{filePath}",
+    "@databaseExistsErrorDescription": {
+        "description": "dialog body for error message when creating a new database with a name which already exists.",
+        "placeholders": {
+            "filePath": {
+                "description": "file path which already existed."
+            }
+        }
     }
 }
