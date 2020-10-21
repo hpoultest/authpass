@@ -270,6 +270,18 @@
     "@diacOptIn": {},
     "diacOptInSubtitle": "会定时连接网络获取新闻和问卷。",
     "@diacOptInSubtitle": {},
+    "nameNewPasswordDatabase": "您新密码集的名称",
+    "@nameNewPasswordDatabase": {
+        "description": "creating new kdbx file, prompt"
+    },
+    "validatorNameMissing": "请为您的新密码集起一个名字。",
+    "@validatorNameMissing": {
+        "description": "Error message when no password database name is given."
+    },
+    "masterPasswordHelpText": "选择一个安全的主密码。请务必牢记。",
+    "@masterPasswordHelpText": {
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+    },
     "inputMasterPasswordText": "主密码",
     "@inputMasterPasswordText": {
         "description": "Creating new file: input field for master password"
