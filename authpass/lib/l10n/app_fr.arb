@@ -52,6 +52,14 @@
     "@hebrew": {
         "description": "Language switcher subtitle"
     },
+    "italian": "Italien",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "Chinois simplifié",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - Sélectionnez un fichier KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
@@ -727,6 +735,10 @@
     "saveAs": "Sauvegarder dans...",
     "@saveAs": {
         "description": "Save as text"
+    },
+    "saving": "Enregistrement",
+    "@saving": {
+        "description": "Saving text"
     },
     "unexpectedError": "Erreur inattendue : {error}",
     "@unexpectedError": {
