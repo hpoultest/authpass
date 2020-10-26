@@ -1,3 +1,23 @@
 {
-    "@@locale": "zh"
+    "@@locale": "zh",
+    "fieldUserName": "帳號名稱",
+    "@fieldUserName": {},
+    "fieldPassword": "密碼",
+    "@fieldPassword": {},
+    "fieldWebsite": "網站",
+    "@fieldWebsite": {},
+    "fieldTitle": "顯示標題",
+    "@fieldTitle": {},
+    "fieldTotp": "單次密碼（OTP，依時間變化）",
+    "@fieldTotp": {
+        "description": "Label for fields of TOTP (Time based one time passwords)"
+    },
+    "english": "英文",
+    "@english": {
+        "description": "language switcher subtitle"
+    },
+    "german": "德文",
+    "@german": {
+        "description": "language switcher subtitle"
+    }
 }
