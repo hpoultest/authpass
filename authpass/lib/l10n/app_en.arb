@@ -60,14 +60,6 @@
   "@chineseSimplified": {
     "description": "Language switcher subtitle"
   },
-  "chineseTraditional": "Chinese Traditional",
-  "@chineseTraditional": {
-    "description": "Language switcher subtitle"
-  },
-  "portugueseBrazilian": "Portuguese, Brazilian",
-  "@portugueseBrazilian": {
-    "description": "Language switcher subtitle"
-  },
 
   "selectKeepassFile": "AuthPass - Select KeePass File",
   "@selectKeepassFile": {
@@ -287,7 +279,7 @@
       }
     }
   },
-  "savedFiles": "{numFiles, plural, =1 {One file saved: {files}} other {{numFiles} files saved: {files}}}",
+  "savedFiles": "{numFiles, plural, one {One file saved: {files}} other {{numFiles} files saved: {files}}}",
   "@savedFiles": {
     "description": "Message displayed when files were saved. (One or more).",
     "context": "Password list",
