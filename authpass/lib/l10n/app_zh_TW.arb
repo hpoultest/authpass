@@ -512,6 +512,10 @@
     "@groupListAppBarTitle": {
         "description": "title in the app bar for the groups list"
     },
+    "groupListFilterAppbarTitle": "選擇要顯示的群組",
+    "@groupListFilterAppbarTitle": {
+        "description": "title in the app bar for group lists when displayed for filtering password list"
+    },
     "clearQuickUnlock": "清除生物辨識資訊",
     "@clearQuickUnlock": {
         "description": ""
@@ -532,6 +536,10 @@
     "@clearQuickUnlockSuccess": {
         "description": ""
     },
+    "diacOptIn": "顯示本軟體的新知及問卷調查",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "啟用後，軟體偶爾會連線擷取最新消息資料",
+    "@diacOptInSubtitle": {},
     "enableAutofillDebug": "自動填入：除錯模式",
     "@enableAutofillDebug": {
         "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
@@ -681,6 +689,14 @@
     },
     "fieldGeneratePassword": "產生密碼…",
     "@fieldGeneratePassword": {
+        "description": ""
+    },
+    "fieldProtect": "隱藏內容",
+    "@fieldProtect": {
+        "description": ""
+    },
+    "fieldUnprotect": "不必隱藏內容",
+    "@fieldUnprotect": {
         "description": ""
     },
     "fieldPresent": "展示",
