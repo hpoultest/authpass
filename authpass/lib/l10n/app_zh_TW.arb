@@ -301,7 +301,7 @@
     "@searchHint": {
         "description": "Placeholder in the password list search box"
     },
-    "clear": "清除",
+    "clear": "清除篩選條件",
     "@clear": {
         "description": "Remove existing group filter from password list"
     },
@@ -679,7 +679,7 @@
     "@entryCustomFieldInputLabel": {
         "description": ""
     },
-    "swipeCopyField": "複製欄位",
+    "swipeCopyField": "複製內容",
     "@swipeCopyField": {
         "description": ""
     },
@@ -699,7 +699,7 @@
     "@fieldUnprotect": {
         "description": ""
     },
-    "fieldPresent": "展示",
+    "fieldPresent": "展示 QRCode",
     "@fieldPresent": {
         "description": ""
     },
