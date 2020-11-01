@@ -386,7 +386,7 @@
         "description": "Credential screen to enter master password when opening kdbx file.",
         "context": "credential screen"
     },
-    "credentialLabel": "輸入密碼：",
+    "credentialLabel": "輸入密碼，開啟資料庫",
     "@credentialLabel": {
         "description": "Label for the file/database being opened",
         "context": "credential screen"
