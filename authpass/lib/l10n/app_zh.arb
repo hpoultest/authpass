@@ -16,8 +16,56 @@
     "@english": {
         "description": "language switcher subtitle"
     },
+    "german": "德语",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "俄语",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "乌克兰语",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "立陶宛语",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "法语",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "西班牙语",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "印度尼西亚语",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "土耳其语",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "希伯来语",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "italian": "意大利语",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
     "chineseSimplified": "简体中文",
     "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "繁体中文",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "葡萄牙文（巴西）",
+    "@portugueseBrazilian": {
         "description": "Language switcher subtitle"
     },
     "selectKeepassFile": "誓约 - 打开数据库文件",
