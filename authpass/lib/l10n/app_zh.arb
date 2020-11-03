@@ -274,6 +274,21 @@
             }
         }
     },
+    "savedFiles": "{numFiles, plural, =1 {一个文件已保存: {files}} other {{numFiles} 个已保存的文件: {files}}}",
+    "@savedFiles": {
+        "description": "Message displayed when files were saved. (One or more).",
+        "context": "Password list",
+        "placeholders": {
+            "numFiles": {
+                "description": "Number of files that have been saved (at least 1)",
+                "type": "int",
+                "format": "compactLong"
+            },
+            "files": {
+                "description": "Comma separated list of vault names."
+            }
+        }
+    },
     "manageGroups": "分组管理",
     "@manageGroups": {
         "description": ""
@@ -639,6 +654,14 @@
     "entryAttachmentSizeWarning": "附件可以是任何文件，该文件将与密码文件结合。这个功能是为了方便携带与密码相关的文件，但这会大大增加打开/保存密码所需的时间。",
     "@entryAttachmentSizeWarning": {
         "description": ""
+    },
+    "iconPngSizeWarning": "自定义图标将合并入密码数据库。这会增加打开/保存密码所需的时间。",
+    "@iconPngSizeWarning": {
+        "description": "Warning shown when user selects a large png file as custom icon."
+    },
+    "notPngError": "只支持PNG (.png) 格式",
+    "@notPngError": {
+        "description": "Error when user selects an unsupported file as custom icon."
     },
     "entryAddField": "添加项目",
     "@entryAddField": {
