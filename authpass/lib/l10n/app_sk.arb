@@ -636,5 +636,132 @@
                 "description": "Name of the group the entry was moved to."
             }
         }
+    },
+    "sizeBytes": "{count} bajtov",
+    "@sizeBytes": {
+        "description": "",
+        "placeholders": {
+            "bytes": {
+                "description": "file size in bytes",
+                "example": "123"
+            }
+        }
+    },
+    "entryAddAttachment": "Pridať Prílohu",
+    "@entryAddAttachment": {
+        "description": ""
+    },
+    "entryAttachmentSizeWarning": "Priložené súbory budú vložené do súboru s heslom. To môže výrazne predĺžiť čas potrebný na otvorenie/uloženie hesiel.",
+    "@entryAttachmentSizeWarning": {
+        "description": ""
+    },
+    "iconPngSizeWarning": "Vlastné ikony budú vložené do súboru s heslom. To môže výrazne predĺžiť čas potrebný na otvorenie/uloženie hesiel.",
+    "@iconPngSizeWarning": {
+        "description": "Warning shown when user selects a large png file as custom icon."
+    },
+    "notPngError": "Zvolený súbor nieje PNG.",
+    "@notPngError": {
+        "description": "Error when user selects an unsupported file as custom icon."
+    },
+    "entryAddField": "Pridať Pole",
+    "@entryAddField": {
+        "description": ""
+    },
+    "entryCustomField": "Vlastné Pole",
+    "@entryCustomField": {
+        "description": ""
+    },
+    "entryCustomFieldTitle": "Pridáva sa nové vlastné Pole",
+    "@entryCustomFieldTitle": {
+        "description": ""
+    },
+    "entryCustomFieldInputLabel": "Zadajte meno pre pole",
+    "@entryCustomFieldInputLabel": {
+        "description": ""
+    },
+    "swipeCopyField": "Kopírovať pole",
+    "@swipeCopyField": {
+        "description": ""
+    },
+    "fieldRename": "Premenovať",
+    "@fieldRename": {
+        "description": ""
+    },
+    "fieldGeneratePassword": "Generovať heslo…",
+    "@fieldGeneratePassword": {
+        "description": ""
+    },
+    "fieldProtect": "Chrániť hodnotu",
+    "@fieldProtect": {
+        "description": ""
+    },
+    "fieldUnprotect": "Zrušiť ochranu hodnoty",
+    "@fieldUnprotect": {
+        "description": ""
+    },
+    "fieldPresent": "Prezentovať",
+    "@fieldPresent": {
+        "description": ""
+    },
+    "fieldGenerateEmail": "Generovať Email",
+    "@fieldGenerateEmail": {
+        "description": ""
+    },
+    "onboardingBackToOnboarding": "Prehliadka",
+    "@onboardingBackToOnboarding": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingBackToOnboardingSubtitle": "Zažite prvý beh 😅️",
+    "@onboardingBackToOnboardingSubtitle": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingHeadline": "Poďme urobiť vaše heslo bezpečným!",
+    "@onboardingHeadline": {
+        "description": ""
+    },
+    "onboardingQuestion": "Už ste predtým používali správcu hesiel?",
+    "@onboardingQuestion": {
+        "description": ""
+    },
+    "onboardingYesOpenPasswords": "Áno, otvorte moje heslá",
+    "@onboardingYesOpenPasswords": {
+        "description": ""
+    },
+    "onboardingNoCreate": "Som úplne nový! Ukáž mi ako.",
+    "@onboardingNoCreate": {
+        "description": ""
+    },
+    "backupButton": "ULOŽIŤ DO CLOUDU",
+    "@backupButton": {
+        "description": "Button that is displayed in backup warnings"
+    },
+    "dismissBackupButton": "ZRUŠIŤ",
+    "@dismissBackupButton": {
+        "description": "Button that is displayed in backup warnings to dismiss the warning"
+    },
+    "backupWarningMessage": "Vaše heslá v databáze {databasename} su uložené iba lokálne!",
+    "@backupWarningMessage": {
+        "description": "Warning message that is displayed in backup warnings",
+        "placeholders": {
+            "databasename": {
+                "example": "PasswordDatabase"
+            }
+        }
+    },
+    "saveAs": "Uložiť v...",
+    "@saveAs": {
+        "description": "Save as text"
+    },
+    "saving": "Ukladám",
+    "@saving": {
+        "description": "Saving text"
+    },
+    "unexpectedError": "Neočakávaná chyba: {error}",
+    "@unexpectedError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
     }
 }
