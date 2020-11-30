@@ -105,7 +105,7 @@
     "@loadFromUrl": {
         "description": "deprecated"
     },
-    "loadFromRemoteUrl": "Otvoriť kdbx súbor z URL",
+    "loadFromRemoteUrl": "Otvoriť. kdbx súbor z URL",
     "@loadFromRemoteUrl": {
         "description": "Overflow menu option to load KeePass file from URL."
     },
@@ -380,6 +380,11 @@
     "@filePickerSubtitle": {
         "description": "Choose a file with the system's file picker. (ios/android)",
         "context": "open file picker: internal file vs. file picker"
+    },
+    "credentialsAppBarTitle": "Prihlasovacie údaje",
+    "@credentialsAppBarTitle": {
+        "description": "Credential screen to enter master password when opening kdbx file.",
+        "context": "credential screen"
     },
     "credentialLabel": "Zadajte heslo pre:",
     "@credentialLabel": {
