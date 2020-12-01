@@ -68,6 +68,10 @@
     "@portugueseBrazilian": {
         "description": "Language switcher subtitle"
     },
+    "slovak": "斯洛伐克语",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFile": "誓约 - 打开数据库文件",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
@@ -711,7 +715,7 @@
     "@onboardingBackToOnboarding": {
         "description": "Context menu entry which reverts to onboarding"
     },
-    "onboardingBackToOnboardingSubtitle": "我想再一次立下誓约 ~",
+    "onboardingBackToOnboardingSubtitle": "我想再一次立下誓约 ~ ( >ω･)～☆",
     "@onboardingBackToOnboardingSubtitle": {
         "description": "Context menu entry which reverts to onboarding"
     },
