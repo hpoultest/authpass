@@ -68,6 +68,10 @@
     "@portugueseBrazilian": {
         "description": "Language switcher subtitle"
     },
+    "slovak": "Eslovaco",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - Seleccionar archivo KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
