@@ -1,3 +1,79 @@
 {
-    "@@locale": "pl"
+    "@@locale": "pl",
+    "fieldUserName": "Użytkownik",
+    "@fieldUserName": {},
+    "fieldPassword": "Hasło",
+    "@fieldPassword": {},
+    "fieldWebsite": "Strona WWW",
+    "@fieldWebsite": {},
+    "fieldTitle": "Nazwa",
+    "@fieldTitle": {},
+    "german": "Niemiecki",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "Rosyjski",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "Ukraiński",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "Litewski",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "Francuski",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "Hiszpański",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "Indonezyjski",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "Turecki",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "Hebrajski",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Słowacki",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "createNewFile": "Utwórz nowy plik",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "Otwórz\nplik lokalny",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "Otwórz plik",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFromUrl": "Pobierz z adresu URL",
+    "@loadFromUrl": {
+        "description": "deprecated"
+    },
+    "loadFromRemoteUrl": "Otwórz kdbx z URL",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
+    "labelLastOpenFiles": "Ostatnio otwarte pliki:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "Nie otwarto jeszcze żadnych plików.",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "Wybierz język",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "Język",
+    "@preferenceLanguage": {}
 }
