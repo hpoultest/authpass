@@ -44,6 +44,10 @@
     "@indonesian": {
         "description": "language switcher subtitle"
     },
+    "turkish": "Turki",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
     "selectKeepassFile": "AuthPass - Pilih file KeePass",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
