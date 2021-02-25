@@ -1,12 +1,12 @@
 {
-    "@@locale": "zh",
-    "fieldUserName": "请输入登录帐号",
+    "@@locale": "zh_CN",
+    "fieldUserName": "账号",
     "@fieldUserName": {},
-    "fieldPassword": "请填入密码",
+    "fieldPassword": "密码",
     "@fieldPassword": {},
-    "fieldWebsite": "请输入要登录的网站的网址",
+    "fieldWebsite": "要登录的网站",
     "@fieldWebsite": {},
-    "fieldTitle": "请输入标题",
+    "fieldTitle": "标题",
     "@fieldTitle": {},
     "fieldTotp": "双重认证 (TOTP)",
     "@fieldTotp": {
