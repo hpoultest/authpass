@@ -4,7 +4,7 @@
     "@fieldUserName": {},
     "fieldPassword": "密码",
     "@fieldPassword": {},
-    "fieldWebsite": "要登录的网站",
+    "fieldWebsite": "目标网站",
     "@fieldWebsite": {},
     "fieldTitle": "标题",
     "@fieldTitle": {},
@@ -72,7 +72,11 @@
     "@slovak": {
         "description": "Language switcher subtitle"
     },
-    "selectKeepassFile": "誓约 - 打开数据库文件",
+    "selectItem": "选择...",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
+    },
+    "selectKeepassFile": "誓约 - 打开密码箱",
     "@selectKeepassFile": {
         "context": "appbar title - select file screen"
     },
@@ -80,15 +84,15 @@
     "@quickUnlockingFiles": {
         "context": "select file screen"
     },
-    "selectKeepassFileLabel": "请打开一个你的数据库！(后缀名是.kdbx)",
+    "selectKeepassFileLabel": "请打开或者新建一个密码箱（格式为.kdbx）",
     "@selectKeepassFileLabel": {
         "context": "select file screen, used as label."
     },
-    "createNewFile": "创建新的数据库",
+    "createNewFile": "新建密码箱",
     "@createNewFile": {
         "description": "button on select file screen to create a new password database."
     },
-    "openLocalFile": "打开\n已有数据库",
+    "openLocalFile": "打开\n现有密码箱",
     "@openLocalFile": {
         "context": "select file screen, big button open local file."
     },
@@ -96,7 +100,7 @@
     "@openFile": {
         "description": "Displayed as placeholder in password list when no file is open."
     },
-    "loadFrom": "从 {cloudStorageName} 加载",
+    "loadFrom": "从 {cloudStorageName} 导入",
     "@loadFrom": {
         "placeholders": {
             "cloudStorageName": {
@@ -109,15 +113,15 @@
     "@loadFromUrl": {
         "description": "deprecated"
     },
-    "loadFromRemoteUrl": "从链接打开 kdbx数据库",
+    "loadFromRemoteUrl": "从链接打开 kdbx密码箱",
     "@loadFromRemoteUrl": {
         "description": "Overflow menu option to load KeePass file from URL."
     },
-    "createNewKeepass": "初来乍到？创建你的第一个密码数据库吧！",
+    "createNewKeepass": "初来乍到？创建你的第一个密码库吧！",
     "@createNewKeepass": {
         "description": "deprecated"
     },
-    "labelLastOpenFiles": "上次打开的数据库:",
+    "labelLastOpenFiles": "上次打开的密码库:",
     "@labelLastOpenFiles": {},
     "noFilesHaveBeenOpenYet": "这里还空着呢，赶快创建一个！",
     "@noFilesHaveBeenOpenYet": {},
