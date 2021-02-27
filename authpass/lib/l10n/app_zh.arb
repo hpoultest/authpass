@@ -1,6 +1,6 @@
 {
     "@@locale": "zh_CN",
-    "fieldUserName": "账号",
+    "fieldUserName": "用户",
     "@fieldUserName": {},
     "fieldPassword": "密码",
     "@fieldPassword": {},
@@ -313,6 +313,10 @@
     "@searchButtonLabel": {
         "description": "search button tooltip/semantic label"
     },
+    "filterButtonLabel": "按组筛选",
+    "@filterButtonLabel": {
+        "description": "tooltip/semantic label for filter app bar icon."
+    },
     "clear": "清空",
     "@clear": {
         "description": "Remove existing group filter from password list"
@@ -427,6 +431,14 @@
     "@saveMasterPasswordBiometric": {
         "description": "Label for the checkbox to save master password for quick unlock.",
         "context": "credential screen"
+    },
+    "close": "关闭",
+    "@close": {
+        "description": "Tooltip/semantic label for close button"
+    },
+    "addNewPassword": "添加新密码",
+    "@addNewPassword": {
+        "description": "Tooltip for adding new password button (floating action button)"
     },
     "errorOpenFileAlreadyOpenTitle": "文件已经打开",
     "@errorOpenFileAlreadyOpenTitle": {
@@ -767,6 +779,18 @@
     "saving": "正在保存...",
     "@saving": {
         "description": "Saving text"
+    },
+    "increaseValue": "增加",
+    "@increaseValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+    },
+    "decreaseValue": "减少",
+    "@decreaseValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+    },
+    "resetValue": "重置",
+    "@resetValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
     },
     "unexpectedError": "意外错误: {error}",
     "@unexpectedError": {
