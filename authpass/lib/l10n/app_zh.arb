@@ -147,15 +147,15 @@
     "@lockAllFiles": {},
     "preferenceAllowScreenshots": "允许对本应用截屏",
     "@preferenceAllowScreenshots": {},
-    "preferenceEnableAutoFill": "启用自动填充",
+    "preferenceEnableAutoFill": "启用密码自动填充",
     "@preferenceEnableAutoFill": {},
-    "preferenceAutoFillDescription": "仅在 安卓 8.0 (Oreo) 或更高版本上支持。",
+    "preferenceAutoFillDescription": "仅支持安卓 8.0 (Oreo) 或更高版本。",
     "@preferenceAutoFillDescription": {},
     "preferenceTitle": "设置",
     "@preferenceTitle": {},
     "aboutAppName": "誓约",
     "@aboutAppName": {},
-    "aboutLinkFeedback": "我们随时欢迎任何意见！",
+    "aboutLinkFeedback": "我们欢迎反馈意见！",
     "@aboutLinkFeedback": {},
     "aboutLinkVisitWebsite": "别忘了参观一下我们的网站",
     "@aboutLinkVisitWebsite": {},
@@ -209,7 +209,7 @@
     "@menuItemCheckForUpdates": {},
     "menuItemSupport": "向开发组求助（使用电邮）",
     "@menuItemSupport": {},
-    "menuItemSupportSubtitle": "通过电子邮件发送日志/请求帮助。",
+    "menuItemSupportSubtitle": "通过电子邮件发送日志，或者请求帮助。",
     "@menuItemSupportSubtitle": {},
     "menuItemHelp": "寻求帮助",
     "@menuItemHelp": {},
@@ -225,7 +225,7 @@
     "@passwordPlainText": {
         "description": "Master password input: show password as plain text during input. (shown as tooltip)"
     },
-    "generatorPassword": "请填入密码",
+    "generatorPassword": "密码",
     "@generatorPassword": {
         "description": "Label for generated password"
     },
