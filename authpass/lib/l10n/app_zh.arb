@@ -382,7 +382,7 @@
         "description": "Choose a file previously created in AuthPass app sandbox",
         "context": "open file picker: internal file vs. file picker"
     },
-    "internalFileSubtitle": "之前使用 誓约 创建的数据库",
+    "internalFileSubtitle": "之前使用 誓约 创建的密码库",
     "@internalFileSubtitle": {
         "description": "Choose a file previously created in AuthPass app sandbox",
         "context": "open file picker: internal file vs. file picker"
@@ -572,19 +572,19 @@
     "@enableAutofillDebugSubtitle": {
         "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
     },
-    "createPasswordDatabase": "新建密码数据库",
+    "createPasswordDatabase": "新建密码库",
     "@createPasswordDatabase": {
         "description": ""
     },
-    "nameNewPasswordDatabase": "您新密码集的名称",
+    "nameNewPasswordDatabase": "您新密码库的名称",
     "@nameNewPasswordDatabase": {
         "description": "creating new kdbx file, prompt"
     },
-    "validatorNameMissing": "请为您的新密码集起一个名字。",
+    "validatorNameMissing": "请为您的新密码库起一个名字。",
     "@validatorNameMissing": {
         "description": "Error message when no password database name is given."
     },
-    "masterPasswordHelpText": "选择一个安全的主密码。请务必牢记。",
+    "masterPasswordHelpText": "设置一个安全的主密码。请务必牢记。",
     "@masterPasswordHelpText": {
         "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
     },
@@ -592,7 +592,7 @@
     "@inputMasterPasswordText": {
         "description": "Creating new file: input field for master password"
     },
-    "masterPasswordMissingCreate": "请输入一个既安全又好记的密码",
+    "masterPasswordMissingCreate": "请务必输入一个既安全又好记的密码~",
     "@masterPasswordMissingCreate": {
         "description": "Text displayed when master password is empty while creating new password database"
     },
@@ -600,11 +600,11 @@
     "@createDatabaseAction": {
         "description": "Label for button to create new database"
     },
-    "databaseExistsError": "文件已存在",
+    "databaseExistsError": "已经有同名的文件了呀~",
     "@databaseExistsError": {
         "description": "dialog title for error message when creating a new database with a name which already exists."
     },
-    "databaseExistsErrorDescription": "创建失败。这个位置已经有了同名文件。 请换一个名字。\n出错位置：{filePath}",
+    "databaseExistsErrorDescription": "创建失败了！这个位置已经有了同名的文件了，请换一个名字吧。\n出错位置：{filePath}",
     "@databaseExistsErrorDescription": {
         "description": "dialog body for error message when creating a new database with a name which already exists.",
         "placeholders": {
@@ -763,7 +763,7 @@
     "@dismissBackupButton": {
         "description": "Button that is displayed in backup warnings to dismiss the warning"
     },
-    "backupWarningMessage": "您在 {databasename} 中的密码只保存在了本地！",
+    "backupWarningMessage": "{databasename} 密码库中的密码没有上传到云端！",
     "@backupWarningMessage": {
         "description": "Warning message that is displayed in backup warnings",
         "placeholders": {
