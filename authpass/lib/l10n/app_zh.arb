@@ -739,7 +739,7 @@
     "@onboardingBackToOnboardingSubtitle": {
         "description": "Context menu entry which reverts to onboarding"
     },
-    "onboardingHeadline": "和我立下誓约，让我保护你的密码吧！",
+    "onboardingHeadline": "誓约一立\n相守汝密",
     "@onboardingHeadline": {
         "description": ""
     },
