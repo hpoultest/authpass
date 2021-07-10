@@ -109,4 +109,23 @@ This is an open source project which is still under heavy development, adding fe
 
 Also join the community on our forum: https://forum.authpass.app/
 ","Windows Store listing description https://docs.microsoft.com/en-us/windows/uwp/publish/write-a-great-app-description","",""
-"microsoft-store-windows-short-descriptoin","Keep your passwords and accounts secure across all platforms and devices. Free and Open Source password manager with support for kdbx password files.","short description for windows store ","270",""
+"microsoft-store-windows-short-descriptoin","Keep your passwords and accounts secure across all platforms and devices. Free and Open Source password manager with support for kdbx password files.","short description for windows store 
+A shorter, catchy description that may be used in the top of your product’s Store listing
+Recommended length: 270 characters or fewer
+","1000",""
+"microsoft-store-windows-features","* Securely store your passwords
+* Open Source
+* Support for standard KeePass files (kdbx)
+* Sync across your devices with cloud storage services.","Short summaries of your product's key features
+Displayed as bulleted list
+Up to 20 app features
+(max 200 characters each)","",""
+"microsoft-store-windows-search-terms","* password manager
+* authpass
+* kdbx
+* keepass
+* password generator","search terms for the microsoft store
+
+Up to 7 search terms
+40 character limit for each search term
+No more than 21 separate words across all search terms","",""
