@@ -79,7 +79,10 @@ Unisciti anche alla community nel nostro canale discord su https://authpass.app/
 "apple-appstore-keywords","Password Manager, Password, Manage, Keystore, Keysafe,Keepass,Kdbx,webdav,icloud,nextcloud,onedrive","apple-appstore-keywords - Keywords used for searching in the apple app store. Does not have to be a 1:1 translation, choose keywords that mak sense.","100",""
 
 "microsoft-store-windows","","Windows Store listing description https://docs.microsoft.com/en-us/windows/uwp/publish/write-a-great-app-description","",""
-"microsoft-store-windows-short-descriptoin","","short description for windows store ","270",""
+"microsoft-store-windows-short-descriptoin","","short description for windows store 
+A shorter, catchy description that may be used in the top of your product’s Store listing
+Recommended length: 270 characters or fewer
+","1000",""
 "microsoft-store-windows-features","","Short summaries of your product's key features
 Displayed as bulleted list
 Up to 20 app features
